@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Courgette|Lobster|Permanent+Marker&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courgette' ;
+
+}
+.container{
+    background-color: #4696e5;
+    width: 80%;
+    margin: auto;
+    padding:20px 50px 20px 20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: white;
+
+}
+.container h1{
+    font-size: 80px;
+    padding-bottom: 50px;
+}
+.txt{
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 22px;
+    color: lightseagreen;
+}
+#add-btn{
+    width: 90px;
+    height: 40px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid lightgrey;
+}
+.list-todo{
+    width: 80%;
+    margin: auto;
+    padding:20px 50px 20px 20px ;
+}
+.complete-btn{
+    width: 100px;
+    height: 40px;
+    background-color: #e7e7e7;
+    color: lightseagreen;
+    margin: 5px;
+    border: none;
+}
+ .delete-btn{
+    width: 100px;
+    height: 40px;
+    background-color: #f44336;  
+    color: lightseagreen;
+    margin: 5px;
+    border: none;
+}
+.to-do{
+    list-style: none;
+    font-size: 26px;
+}
+.item{
+    width: 60%;
+    font-size: 22px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgrey;
+}
+
+.text-line{
+    text-decoration: line-through;
+}
+
+li{
+    display: flex;
+    justify-content: baseline;
+}
+.paragraph{
+    display: flex;
+    justify-content: center;
+    color: grey;
+    font-size: 35px;
+    margin-top: 20px;
+
+}
+.update-item{
+    width: 60%;
+    font-size: 22px;
+    margin: 5px;
+    padding: 5px;
+}
